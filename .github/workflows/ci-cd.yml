@@ -34,7 +34,7 @@
 name: Continuous Integration and Delivery
 on:
   push:
-    branches: [main]
+    branches: [main, staging]
 
 jobs:
   test_and_build:
@@ -93,7 +93,7 @@ jobs:
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: >-
-            ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DASHBOARD_3955A 
+            ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DASHBOARD_3955A_STAGING 
             }}
           channelId: live
-          projectId: dashboard-3955a
+          projectId: dashboard-staging-ce42e

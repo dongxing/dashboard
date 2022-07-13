@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "dashboard-3955a"
-  }
+    "default": "dashboard-3955a",
+    "staging": "dashboard-staging-ce42e"
+  },
+  "targets": {}
 }
